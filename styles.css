@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    color: #f4f4f4;
+    background-color: #1e1e2f; /* Dark background */
+  }
+  
+  header {
+    background: #2c2c54; /* Darker header */
+    color: #fff;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6b6b; /* Vibrant red for hover */
+    transform: translateY(-3px);
+  }
+  
+  .section {
+    padding: 80px 20px;
+    border-bottom: 1px solid #444;
+  }
+  
+  h1 {
+    font-size: 3em;
+    color: #ff6b6b; /* Vibrant red for headings */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 2.2em;
+    color: #ff6b6b; /* Vibrant red for subheadings */
+    margin-bottom: 20px;
+  }
+  
+  p, ul {
+    font-size: 1.1em;
+    color: #f4f4f4;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  footer {
+    background: #2c2c54; /* Darker footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Animation for Navigation Tracking */
+  nav ul li a.active {
+    color: #ff6b6b; /* Vibrant red for active link */
+    border-bottom: 2px solid #ff6b6b;
+    transform: translateY(-3px);
+  }
+  
+  /* Additional Styling for Links in Contact Section */
+  #contact a {
+    color: #ff6b6b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  #contact a:hover {
+    color: #ff9f43; /* Orange for hover */
+  }
+  
+  /* Add a subtle gradient to sections for depth */
+  .section:nth-child(odd) {
+    background: linear-gradient(145deg, #2c2c54, #1e1e2f);
+  }
+  
+  .section:nth-child(even) {
+    background: linear-gradient(145deg, #1e1e2f, #2c2c54);
+  }
+  
+  /* Add a glowing effect to headings */
+  h1, h2 {
+    text-shadow: 0 0 10px rgba(255, 107, 107, 0.5), 0 0 20px rgba(255, 107, 107, 0.3);
+  }
+  /* Profile Picture Styles */
+  .profile-picture {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    border: 4px solid #ff6b6b; /* Vibrant red border */
+    box-shadow: 0 0 20px rgba(255, 107, 107, 0.5); /* Glowing effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .profile-picture img:hover {
+    transform: scale(1.1); /* Slightly enlarges the image on hover */
+    box-shadow: 0 0 30px rgba(255, 107, 107, 0.8); /* Enhanced glow on hover */
+  }
